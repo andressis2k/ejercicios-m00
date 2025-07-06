@@ -13,6 +13,7 @@ def entrada(valor):
         except:
             print("Introduzca un número entero positivo")
 
+
 while True:
     limpiar_pantalla()
     personas = entrada("personas")
