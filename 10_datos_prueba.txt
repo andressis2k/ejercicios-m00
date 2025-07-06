@@ -1,0 +1,16 @@
+mesa
+6
+33
+s
+cama
+8
+109
+s
+mesilla
+8
+0
+s
+armario
+2
+199
+n
