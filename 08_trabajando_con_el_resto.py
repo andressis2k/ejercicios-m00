@@ -29,7 +29,8 @@ while True:
         porciones = personas + 1
     else:
         porciones = personas
+    
     print(f"Cada pizza debe dividirse en {porciones} porciones, por lo que tendremos un total de {porciones * pizzas} porciones")
      
-    print(f"Cada persona tomará {pizzas} porciones y sobrarán {porciones*pizzas-pizzas*personas} porciones")
+    print(f"Cada persona tomará {pizzas} {'porción' if pizzas == 1 else 'porciones'} y sobrarán {porciones*pizzas-pizzas*personas} porciones")
     input("Presione enter para continuar")
